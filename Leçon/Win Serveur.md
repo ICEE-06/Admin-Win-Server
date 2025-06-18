@@ -51,3 +51,10 @@ Windows Server est fondé sur un modèle **clients-serveur**(client mangataka re
 - **Service de sécurité**:
 	Intégration de Windows Defender pour la protection contre les logiciels malveillants, **Bitlocker** pour les cryptages des données.
 
+
+
+> [!NOTE] LAN
+> Tout ce qui est **intérieur**  
+
+
+
