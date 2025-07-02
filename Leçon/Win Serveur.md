@@ -56,5 +56,78 @@ Windows Server est fondé sur un modèle **clients-serveur**(client mangataka re
 > [!NOTE] LAN
 > Tout ce qui est **intérieur**  
 
+### Comparaison avec d'autres systèmes serveur
+- **Windows Server**:
+	- Supporte une large gamme de matériel
+	- Nécessite une licence
+- **Linux**:
+	- Supporte une large gamme de matériel, y compris des architectures différentes
+	- Gratuit
+- **macOs Server**:
+	- Concentré sur les services Apple
+	- Utilisation courante dans les environnements éducatifs et créatifs
+- **Unix**:
+	- Supportes des app spécifiques à certains industries et des solutions logicielles personnalisées
+	- Gestion souvent orienté en ligne de commande
+
+### Cas d'utilisation typiques de WinServer
+#### Gestion d'identité et d'accès:
+**Active Directory**: utilisé pour déployer et gérer des services d'annuaire via **AD**.
+
+#### Services de messagerie et de collab: 
+**Exchange Server** : Windows Server est souvent utilisé avec **Microsoft Exgange Server** pour fournir des services de messagerie, de calendrier, de contacts et de collaboration.
+
+
+> [!NOTE] Microsoft Exchange Server
+> - Afaka manao calendrier local sy ny calendrier en ligne. Ampesaina matetika anaty Entreprise
+> - Onpremise: manana serveur dédié mintsy. Contrôle total contrairement @ Microsoft 365(au niveau du cloud)
+
+#### Partage de fichiers et d'Impression
+**Serveur de fichier**: WinServer est configuré en tant que serveur de fichier pour le partage de fichiers. Il offre des fonctionnalités avancées telles que le contrôle d'accès basé sur les rôles, chiffrement de données (**BitLocker**), gestion de quotas de stockage .
+
+#### Virtualisation et Cloud privé
+**Hyper-V**: WinServer comprend Hyper-V. Cela permet la consolidation des serveurs, la flexibilité des charges de travail, gestion efficace des ressources informatiques.
+
+#### Sauvegarde et Récupération
+**Windows Server Backup**: cet outil offre des fonctionnalités de sauvegardes et récupérations pour protéger les données critiques et restaurer les systèmes en cas de sinistre ou de perte de données. 
+
+#### Sécurité et gestion des Systèmes:
+**Windows Defender**: offre une protection contre les menaces de sécurité telles que les virus et attaque.
+
+#### Analyse de Données et Business intelligence:
+**Microsoft SQL Server**: gestion et analyse des données d'entreprise, stockage de bases de données relationnelles, support des app critiques au niveau des entreprises.
+
+#### Intégration avec d'autres services Microsoft
+**SharePoint Server**: plateforme cloud développé par Microsoft afin de faire des collaborations en ligne(Afaka manokatra fichier iray ny olona maro be).
+
+### Licences et Editions Windows Server
+
+**Windows Server Essentials**:
+	- conçu pour les PME avec des besoins de serveur légers
+	- Licence couvrant un serveur physique avec des limitations des nbrs d'user(25)
+	- Active Directory, Sauvegarde intégrée, gestion des données et des utilisateurs
+
+**Windows Server Standard**
+	- convient aux env physiques et VM
+	- Licencié par processeur jusqu'à deux processeurs physiques sur un seul serveur
+	-  Active Directory, Sauvegarde intégrée, bureau à distance
+
+**Windows Server  Data Center**
+	- Env Cloud privé et hautement virtualisé
+	- licence couvrant un nbr illimité de VM
+	- +Hyper-v, Storage space direct,etc
+
+**Windows Server Iot**
+	- intégration dans des dispositifs et des solutions IoT
+	- Licence par appareil pour les dispositifs spécifiques intégrant Windows Server pour des fonctions IoT
+	- Gestions appareils IoT, Azure Iot Edge, sécurité renforcée pour les env industriels.
+
+### Prérequis 
+- **Processeur**: 1.4 GHz 64 bit
+- **Stockage**: 32 GB de stockage
+- **RAM**: 2 GB de ram
+- **Licence**: clé de produit valide
+- Mises à jour du BIOS/firmeware
+
 
 
